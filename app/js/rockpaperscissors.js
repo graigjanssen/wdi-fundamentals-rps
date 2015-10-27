@@ -89,8 +89,6 @@ function playToFive() {
         }
     }
     
-    return "Game Over";
+    return [playerWins, computerWins];
     
 }
-
-playToFive();
